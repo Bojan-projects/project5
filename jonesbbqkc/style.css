@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: 'Anton', "Poppins", sans-serif;
+}
+body{
+ overflow-x: hidden;
+}
+a{
+ text-decoration: none;
+}
+li{
+ list-style: none;
+}
+
+.header .logo{
+ width: 120px;
+}
+.header {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px 3%;
+ background-color: rgb(219, 68, 57);
+ 
+}
+.header ul li{
+ display: inline-block;
+ margin-right: 15px;
+}
+.header ul li a{
+ color: #fff;
+ font-size: 1.6rem;
+}
+.header .buttons .cart{
+ font-size: 1.6rem;
+ color: #fff;
+
+}
+.header .buttons span{
+ font-size: 1.5rem;
+ color: #fff;
+ margin-right: 20px;
+}
+.header .buttons .btn{
+ background-color: #fff;
+ color: rgb(219, 68, 57);
+ border-radius: 40px;
+ padding: 25px 35px;
+ font-size: 1.6rem;
+ box-shadow: -14px 10px 16px rgba(0, 0, 0, 0.6);
+ transition: .3s linear;
+}
+.header .buttons .btn:hover{
+ opacity: .8;
+}
+.header i.menu{
+ display: none;
+}
+.hero{
+ background-color: rgb(219, 68, 57);
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 3%;
+ flex-wrap: wrap;
+}
+.hero .hero-content{
+ flex: 1 1 41rem;
+}
+.hero .hero-image-block{
+ flex: 1 1 41rem;
+ 
+}
+.hero .hero-image-block img{
+ width: 90%;
+}
+.hero .hero-content h1{
+ font-size: 10.5rem;
+ letter-spacing: 5px;
+ line-height: 1;
+ color: #f1e8db;
+ font-weight: 500;
+ margin-bottom: 40px;
+ 
+}
+.hero .hero-content h3{
+ color: #f1e8db;
+ font-size: 3rem;
+ font-weight: 400;
+ margin-bottom: 40px;
+}
+.hero .hero-content p{
+ color: #f1e8db;
+ font-size: 2rem;
+}
+.scroll{
+ font-family: inherit;
+ font-size:24px;
+ animation: scroll 15s linear infinite;
+ color: rgb(219, 68, 57);
+ width: 100%;
+ white-space: nowrap;
+ padding-block: 50px;
+ 
+}
+.sauces{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+}
+.sauces .sauce-image{
+ flex: 1 1 41rem;
+}
+.sauces .sauce-image img{
+ width: 100%;
+}
+.sauces .sauce-content{
+ text-align: center;
+ background-color: #f1e8db;
+ flex: 1 1 41rem;
+ padding-block: 253px;
+}
+.sauces .sauce-content h1{
+ font-size: 8rem;
+ color: rgb(219, 68, 57);
+ line-height: 1;
+ font-weight: 500;
+ margin-bottom: 50px;
+}
+.sauces .sauce-content p{
+ text-align: left;
+font-size: 20px;
+width: 90%;
+padding-left: 15%;
+margin-bottom: 50px;
+ 
+}
+.sauces .sauce-content .sauce-btn{
+ background-color: rgb(219, 68, 57);
+ color: #fff;
+ padding: 20px 35px;
+ border-radius: 40px;
+ box-shadow: -14px 6px 30px rgb(219, 68, 57);
+}
+.features h1{
+ text-align: center;
+ padding-block: 50px;
+ color: rgb(219, 68, 57);
+ font-size: 2rem;
+}
+.features .features-block{
+ display: flex;
+ padding-inline: 3%;
+}
+.features .features-block img{
+ width: 300px;
+}
+
+.restaurant{
+ display: flex;
+ align-items: center;
+ flex-wrap: wrap;
+}
+.restaurant .restaurant-content{
+ flex: 2 2 41rem;
+ background-color: rgb(219, 68, 57);
+ height: 99.5vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.restaurant .restaurant-image{
+ flex: 1 1 41rem;
+ padding-top: 7px;
+}
+.restaurant .restaurant-image img{
+ width: 100%;
+}
+.restaurant .restaurant-content h1{
+ font-size: 8rem;
+ color: #f1e8db;
+ line-height: 1;
+ margin-bottom: 30px;
+}
+.restaurant .restaurant-content p{
+ font-size: 1.2rem;
+ color: #f1e8db;
+ margin-bottom: 30px;
+ text-align: left;
+}
+.restaurant .restaurant-content .restaurantBtn{
+ background-color: #f1e8db;
+ color: rgb(219, 68, 57);
+ font-weight: 500;
+ font-family: "Poppins";
+ border-radius: 40px;
+ padding: 20px 35px;
+ box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.8);
+}
+.attitude{
+ padding-inline: 3%;
+}
+.attitude h1, h3{
+ text-align: center;
+ color: rgb(219, 68, 57);
+
+}
+.attitude h1{
+ font-size: 10rem;
+ line-height: 1;
+ padding-block: 50px;
+ letter-spacing: 5px;
+}
+.attitude h3{
+ font-size: 5rem;
+ font-weight: 400;
+ margin-bottom: 50px;
+}
+.attitude .attitude-content{
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+}
+.attitude .attitude-content .left-image{
+ flex: 1 1 41rem;
+ margin-top: 50px;
+}
+.attitude .attitude-content .left-image img{
+ width: 80%;
+}
+.attitude .attitude-content .right-image{
+ flex: 1 1 41rem;
+}
+.attitude .attitude-content .right-image img{
+ width: 100%;
+ margin-bottom: 100px;
+}
+.attitude .attitude-content .right-content p{
+ font-size: 1.5rem;
+ font-family: "Poppins";
+ font-weight: 400;
+ margin-bottom: 50px;
+}
+.attitude .attitude-content .right-content .attitudeBtn{
+ background-color: rgb(219, 68, 57);
+ color: #fff;
+ font-family: "Poppins";
+ font-size: 1.2rem;
+ padding: 20px 35px;
+ border-radius: 40px;
+ box-shadow: -10px 6px 10px rgba(219, 68, 57, 1);;
+}
+.attitude{
+ background-color: #f1e8db;
+}
+.banner{
+ background-color: rgb(219, 68, 57);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ height: 80vh;
+}
+.banner h1{
+ color: #f1e8db;
+ font-size: 12rem;
+ padding-block: 50px;
+ text-align: center;
+ letter-spacing: 5px;
+ line-height: 1;
+ font-weight: 400;
+}
+.banner p{
+ color: #f1e8db;
+ font-size: 1.4rem;
+ margin-bottom: 50px;
+}
+.banner .banner-buttons input[type=email]{
+ padding: 10px 55px;
+ border-radius: 25px;
+ border: 0;
+ outline: 0;
+ font-family: "Poppins";
+ cursor: pointer;
+
+}
+.banner .banner-buttons input[type=submit]{
+ font-family: "Poppins";
+ color: rgb(219, 68, 57);
+ border: 0;
+ outline: 0;
+ background-color: #f1e8db;
+ padding: 10px 35px;
+ border-radius: 25px;
+ cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+ .header{
+  display: block;
+  transition: .4s ease-in-out;
+ }
+ .header ul li{
+  display: block;
+ }
+ .header ul{
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+ }
+.header .buttons{
+ display: none;
+ align-items: center;
+ justify-content: center;
+}
+ .header .buttons .cart,span{
+  display: none;
+ }
+ .header .buttons .btn{
+  
+  padding: 10px 30px;
+  
+ }
+ .header i.menu{
+ display: block;
+ position: absolute;
+ top: 4rem;
+ right: 2rem;
+ font-size: 2rem;
+ cursor: pointer;
+ color: #fff;
+ }
+ .header ul.active{
+  display: flex;
+ }
+ .header .buttons.active{
+  display: flex;
+
+ }
+ .header.active{
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #f1e8db;
+ }
+ .header ul li a{
+  color: rgb(219, 68, 57);
+ }
+ .header.active .menu{
+  color: rgb(219, 68, 57);;
+ }
+ .hero{
+  padding-inline: 3%;
+ }
+ .hero .hero-image-block img{
+  width: 100%;
+ }
+ .hero .hero-content h1{
+  font-size: 5rem;
+ }
+ .sauces .sauce-content h1{
+  font-size: 5rem;
+ }
+ .features .features-block{
+  flex-direction: column;
+  align-items: center;
+ }
+ .restaurant{
+  gap: 0px;
+ }
+ .restaurant .restaurant-content{
+  padding-inline: 3%;
+  gap: 0px;
+  height: 100vh;
+  width: 100%;
+ }
+ .restaurant .restaurant-content h1{
+  font-size: 6rem;
+
+ }
+ .restaurant .restaurant-image{
+  height: 100%;
+  width: 100%;
+ }
+ .attitude .attitude-content{
+  grid-template-columns: 1fr;
+ }
+ .attitude .attitude-content .left-image img{
+  width: 100%;
+ }
+ .attitude h1{
+  font-size: 5rem;
+ }
+ .attitude h3{
+  font-size: 3rem;
+ }
+ .attitude .attitude-content .right-content .right-image img{
+  margin-bottom: 10px;
+ }
+ .attitude .attitude-content .right-content p{
+  font-size: 1rem;
+ }
+ .attitude .attitude-content .right-content{
+  padding-bottom: 50px;
+ }
+ .banner{
+  height: 100vh;
+ }
+ .banner h1{
+  font-size: 8rem;
+ }
+ .banner p{
+  text-align: center;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes scroll{
+ 0%{
+  transform: translateX(-20%);
+ }
+ 20%{
+  transform: translateX(0%);
+ }
+ 40%{
+  transform: translateX(25%);
+ }
+ 60%{
+  transform: translateX(50%);
+ }
+ 80%{
+  transform: translateX(75%);
+ }
+ 100%{
+  transform: translateX(100%);
+ }
+}
